@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
+import Title from "./components/Title/Title";
 import './App.css';
 // import { Transition } from "react-transition-group";
 
