@@ -4,7 +4,7 @@ import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../context/context';
 import Title from '../components/Title/Title';
-import ProjectImg from '../Image/ProjectImg';
+import ProjectImg from '../components/Image/ProjectImg';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
