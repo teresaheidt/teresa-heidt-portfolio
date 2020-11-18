@@ -1,11 +1,20 @@
 module.exports = {
+  addons: [
+    {
+       name: '@storybook/addon-docs',
+       options: { configureJSX: true }
+    }
+  ],
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`
     `@babel/plugin-syntax-jsx`,
+    {
+      "plugins": ["@babel/plugin-syntax-jsx"]
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
