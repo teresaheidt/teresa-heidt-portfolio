@@ -1,12 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
-import PortfolioContext from '../context/context';
-
-
+// import PortfolioContext from '../context/context';
 
 const Contact = () => {
-    const { contact } = useContext(PortfolioContext);
+    // const { contact } = useContext(PortfolioContext);
     const { cta, btn, email } = contact;
   
     return (
