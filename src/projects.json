@@ -1,0 +1,83 @@
+[
+    {
+        "id": "1",
+        "img": "bracketeers.png",
+        "title": "Bracketeers",
+        "info":
+          "Never has there been a more compelling game! Play country vs. country in the ultimate playoff.",
+        "info2":
+          "Technologies used: HTML5, CSS, Javascript, Bootstrap, Node.js, Heroku, Handlebars, Bulma, Sequelize",
+        "url": "https://bracketeers.herokuapp.com/",
+        "repo": "https://github.com/prabin544/Bracketeers.git"
+      },
+      {
+        "id": "2",
+        "img": "map.jpg",
+        "title": "Middle Point",
+        "info":
+          "Going somewhere far? Meeting someone close? Middle point finds a convenient location for all occasions!",
+        "info2": "Technologies used: HTML5, CSS, Javascript, Bootstrap, W3Schools framework",
+        "url": "https://xtreme6007.github.io/Middle-Point-TAPS/",
+        "repo": "https://github.com/xtreme6007/Middle-Point-TAPS"
+      },
+      {
+        "id": "3",
+        "img": "burger.jpg",
+        "title": "Burger Logger",
+        "info":
+          "Yummy! A delicious burger app that allows you to pick the burgers and demolish them in one sitting!",
+        "info2": "Technologies used: HTML5, CSS, Javascript",
+        "url": "https://burgertdelicious.herokuapp.com/",
+        "repo": "https://github.com/teresaheidt/Burger-Logger"
+      },
+      {
+        "id": "4",
+        "img": "scheduler.jpg",
+        "title": "Daily Planner",
+        "info":
+          "Never be late to a meeting ever again. This color coded 9 to 5 weekday scheduler aligns with the current time!",
+        "info2": "Technologies used: HTML5, CSS, Javascript",
+        "url": "https://teresaheidt.github.io/Scheduler/",
+        "repo": "https://github.com/teresaheidt/Scheduler"
+      },
+      {
+        "id": "5",
+        "img": "look.png",
+        "title": "Team Profile Generator",
+        "info":
+          "Built a Node CLI that takes in information and generates an HTML webpage, displaying summaries of all the employees with quick and easy access to emails and Github profiles.",
+        "info2": "Technologies used: Node CLI, Bootstrap.",
+        "url": "https://burgertdelicious.herokuapp.com/",
+        "repo": "https://github.com/teresaheidt/Team-Profile-Generator"
+      },
+      {
+        "id": "6",
+        "img": "weather.jpg",
+        "title": "Weather Dashboard",
+        "info":
+          "See the what the weather is like doing in any city! Great for planning your travel and knowing what to expect.",
+        "info2": "Technologies used: HTML5, CSS, Bootstrap, Javascript, WeatherAPI",
+        "url": "https://teresaheidt.github.io/Weather-Dashboard/",
+        "repo": "https://github.com/teresaheidt/Weather-Dashboard"
+      },
+      {
+        "id": "7",
+        "img": "codequiz.png",
+        "title": "Code Quiz",
+        "info": "So you think you can code? is a timed code quiz with 8 questions.",
+        "info2": "Technologies used: HTML5, CSS, Bootstrap, Javascript",
+        "url": "https://teresaheidt.github.io/Timed-Code-Quiz/",
+        "repo": "https://github.com/teresaheidt/Timed-Code-Quiz"
+      },
+      {
+        "id": "8",
+        "img": "password.jpg",
+        "title": "Password Generator",
+        "info":
+          "This is a simple password generator designed to produce a password with upper case, lower case, numbers and special characters.",
+        "info2": "Technologies used: HTML5, CSS, Javascript",
+        "url": "https://teresaheidt.github.io/Password-Generator/",
+        "repo": "https://github.com/teresaheidt/Password-Generator"
+      }
+    ]
+    

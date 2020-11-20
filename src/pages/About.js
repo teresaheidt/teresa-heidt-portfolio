@@ -3,10 +3,13 @@ import Hero from "../components/Hero";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import Container from "../components/Container";
+import Navbar from "../components/Navbar";
 
 function About() {
     return (
+        
         <div>
+            <Navbar />
             <Hero>
             Hello there! This is about ME
             </Hero>

@@ -1,34 +1,32 @@
-import React, { useContext } from "react";
-import Fade from 'react-reveal/Fade';
-import { Container } from 'react-bootstrap';
-// import PortfolioContext from '../context/context';
+import React from "react";
+import Hero from "../components/Hero";
+import Row from "../components/Row";
+import Col from "../components/Col";
+import Container from "../components/Container";
+import Navbar from "../components/Navbar";
 
-const Contact = () => {
-    // const { contact } = useContext(PortfolioContext);
-    const { cta, btn, email } = contact;
-  
+function Contact() {
     return (
-      <section id="contact">
-        <Container>
-          {/* <Title title="Contact" /> */}
-          <Fade bottom duration={1000} delay={800} distance="30px">
-            <div className="contact-wrapper">
-              <p className="contact-wrapper__text">
-                {cta || 'Would you like to work with me? Awesome!'}
-              </p>
-              <a
-                target="_blank"
-                rel="teresaheidt@hotmail.com"
-                className="cta-btn cta-btn--resume"
-                href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
-              >
-                {btn || "Let's Talk"}
-              </a>
-            </div>
-          </Fade>
-        </Container>
-      </section>
-    );
-  };
-  
-  export default Contact;
+        
+        <div>
+            <Navbar />
+            <Hero>
+                <h1> Contact me</h1>
+                <h2>Email</h2>
+                <a href="mailto:teresaheidt@hotmail.com" />
+                <i className="fa fa-envelope"></i>
+
+            </Hero>
+            <Container style={{ marginTop: 30 }}>
+                <Row>
+                    <Col size="md-12">
+                        
+                    </Col>
+                </Row>
+            </Container>    
+          </div>
+    )
+}
+    
+
+export default Contact;
