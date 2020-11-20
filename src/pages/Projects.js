@@ -20,8 +20,12 @@ class Projects extends Component {
           return (
           <ProjectCard 
             id={project.id}
+            img={project.img}
             title={project.title}
-            image={project.image}
+            info={project.info}
+            info2={project.info2}
+            url={project.url}
+            repo={project.info2}
             
           />
           )

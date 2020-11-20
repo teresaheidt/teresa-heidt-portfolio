@@ -12,17 +12,17 @@ function ProjectContainer() {
             <Row>
                 <Col>
                 <ProjectCard
-                    img={"/images/map.png"}
+                    img={"assets/images/map.png"}
                     title={"Middle Point"}
-                    description={"Going somewhere far? Meeting somebody close? Middle Point finds the perfect location for all occasions!"}
-                    deployed={" "}
-                    repo={"  "}
-                    tech={"JavaScript, jquery, Bootstrap, AJAX"}
+                    info={"Going somewhere far? Meeting somebody close? Middle Point finds the perfect location for all occasions!"}
+                    info2={" "}
+                    url={"  "}
+                    repo={"JavaScript, jquery, Bootstrap, AJAX"}
                 />
                 </Col>
                 <Col>
                 <ProjectCard
-                    img={"assets/img/White-Glove-Detailing.png"}
+                    img={"assets/images/White-Glove-Detailing.png"}
                     title={"  "}
                     description={"This application is the basis for a company that provides car detailing services while a customer is shopping at malls, grocery stores, etc..."}
                     deployed={"  "}
