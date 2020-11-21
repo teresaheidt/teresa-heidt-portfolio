@@ -1,18 +1,23 @@
 import React from "react";
-import Hero from "../components/Hero";
+// import Hero from "../components/Hero";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import "../components/Header/style.css";
 import Container from "../components/Container";
 import Navbar from "../components/Navbar";
+// import Header from "../components/Header";
+
 
 function About() {
     return (
         
         <div>
             <Navbar />
-            <Hero>
-            Hello there! This is about ME
-            </Hero>
+            {/* <Header /> */}
+            {/* <Hero style={{backgroundImage: `url("${lightpink}")` }}>
+            
+
+            </Hero> */}
             <Container style={{ marginTop: 30 }}>
                 <Row>
                     <Col size="md-12">
@@ -32,13 +37,14 @@ function About() {
                         Born and raised in England, I have lived in the U.S. for the past twenty years.
                         I love helping people, solving problems and performing my very best.
                         One of my passions is writing and in 2018, I published a book called
-                        'Personal Appearances Are Everything'. There are two more books in the pipeline for release, in late 2020 and 2021. 
+                        'Personal Appearances Are Everything'. In November 2020, my second book was published, 'Online Or Off'. 
+                        One more book is due for release in 2021. 
                         In my spare time I love; running, reading, writing, coding and spending time with my Shar-pei pug 🐶.
                         </p>
                     </Col>
-    
                 </Row>
             </Container>
+      
         </div>
     );
 }

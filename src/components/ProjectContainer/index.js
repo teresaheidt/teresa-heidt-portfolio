@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from '../components/Container'
 import ProjectCard from '../ProjectCard'
+import Footer from "../Footer"
 // import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/col'
 
@@ -12,7 +13,7 @@ function ProjectContainer() {
             <Row>
                 <Col>
                 <ProjectCard
-                    img={"assets/images/map.png"}
+                    img={"/images/map.png"}
                     title={"Middle Point"}
                     info={"Going somewhere far? Meeting somebody close? Middle Point finds the perfect location for all occasions!"}
                     info2={" "}
