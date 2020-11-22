@@ -2,7 +2,9 @@
     min-height: 100px;
     background: #E5E5E5;
     text-align: center;
-    /* position: relative; */
+    position: relative;
+    flex-shrink: 0; 
+    
   }
   
   .footer span {

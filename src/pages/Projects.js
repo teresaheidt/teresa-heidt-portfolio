@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Navbar from "../components/Navbar";
-// import ProjectContainer from '../components/ProjectContainer';
 import myProjects from "../projects.json";
 import ProjectCard from "../components/ProjectCard"
 

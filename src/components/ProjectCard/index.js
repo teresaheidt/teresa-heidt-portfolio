@@ -2,11 +2,10 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import "./style.css";
-// import bracketeers from "assets/images/bracketeers"
 
 function ProjectCard(props) {
   return (
-    <Card className="card" style={{ width: '18rem' }}>
+    <Card className="card" style={{ width: '28rem' }}>
       <Card.Img variant="top" src={props.img} />
 
       <Card.Body>

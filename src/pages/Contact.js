@@ -1,38 +1,30 @@
 import React from "react";
 import Hero from "../components/Hero";
-import Row from "../components/Row";
-import Col from "../components/Col";
-import Container from "../components/Container";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import Nav from 'react-bootstrap/Nav'
-import { FaMailBulk } from 'react-icons/fa';
-// import { Linking } from 'react-native';
+import { FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 
 function Contact() {
     return (
         
         <div>
-            <Navbar />
+            <Navbar fixed="botom" style={{height: '100px'}}/>
             <Hero>
                 <h1> Contact me</h1>
                 <h2>Email</h2>
-                <a href="mailto:teresaheidt@hotmail.com" />
-                <i className="fa fa-envelope"></i>
-                {/* <Button onPress={() => Linking.openURL('mailto:support@example.com') }
-      title="support@example.com" /> */}
-<Nav.Link  href={'mailto:teresaheidt@hotmail.com'}><FaMailBulk />
-</Nav.Link>
+            
+            <Nav.Link  href={'mailto:teresaheidt@hotmail.com'}><FaMailBulk size=""/>
+            </Nav.Link>
+            <h2>Github</h2>
+            <Nav.Link  href='https://github.com/teresaheidt'><FaGithub size=""/>
+            </Nav.Link>
+            <h2>LinkedIn</h2>
+            <Nav.Link  href='https://www.linkedin.com/in/teresa-heidt-a2a4641/'><FaLinkedin size=""/>
+            </Nav.Link>
+            
             </Hero>
-            <Container style={{ marginTop: 30 }}>
-                <Row>
-                    <Col size="md-12">
-                        
-                    </Col>
-                   
-                </Row>
-            </Container>  
-            <Footer />  
+   
+            
           </div>
     )
 }

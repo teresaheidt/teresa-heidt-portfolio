@@ -1,10 +1,11 @@
 import React from "react";
-// import Hero from "../components/Hero";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import "../components/Header/style.css";
 import Container from "../components/Container";
 import Navbar from "../components/Navbar";
+import Profilepic from "../images/profileblackdress.jpeg";
+
 // import Header from "../components/Header";
 
 
@@ -13,20 +14,14 @@ function About() {
         
         <div>
             <Navbar />
-            {/* <Header /> */}
-            {/* <Hero style={{backgroundImage: `url("${lightpink}")` }}>
-            
-
-            </Hero> */}
-            <Container style={{ marginTop: 30 }}>
+        
+        
+            <Container style={{ marginTop: 50 }}>
                 <Row>
-                    <Col size="md-12">
-                        <h1>About Me</h1>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col size="md-12">
-                        <p>
+                <Col size="md-6">
+                 
+            <h1>About Me</h1>
+            <p>
                         I am a web designer and developer.
                         Being creative and designing captivating content is my focus.
                         I am always thinking outside the box and bringing new ideas to the table.
@@ -41,10 +36,17 @@ function About() {
                         One more book is due for release in 2021. 
                         In my spare time I love; running, reading, writing, coding and spending time with my Shar-pei pug 🐶.
                         </p>
+                        </Col>
+                        {/* <br />
+                        <p /> */}
+                    <Col size="md-6">
+                        <br />
+                        <img src={Profilepic} alt={"headshot"} height={300} width={300} ></img>
                     </Col>
-                </Row>
+                    </Row>
+                    
             </Container>
-      
+            
         </div>
     );
 }
