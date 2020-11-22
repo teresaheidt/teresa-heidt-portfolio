@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import "./style.css";
 
 function ProjectCard(props) {
@@ -13,13 +12,15 @@ function ProjectCard(props) {
         <Card.Title>{props.title}</Card.Title>
 
         <Card.Text>{props.text}</Card.Text>
-  <p>{props.info}</p>
-  <p><i>{props.info2}</i></p>
-  {/* <Card.Info>{props.info}</Card.Info> */}
-  <a href={props.url}>Deployed Link</a><br /><p />
-  <a href={props.repo}>Github Link</a>
+          <p>{props.info}</p>
+          <p><i>{props.info2}</i></p>
+
+          <a className="links" style={{textDecoration: 'none'}} href={props.url} target="_blank">Deployed Link</a><br /><p />
+          <a className="links" style={{textDecoration: 'none'}} href={props.repo} target="_blank">Github Link</a>
+      
       </Card.Body>
     </Card>
+    <br /><br />
     </div>
   )
 }

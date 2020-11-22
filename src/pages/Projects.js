@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from "../components/Navbar";
+import Container from "../components/Container";
+import Row from "../components/Row";
+import Col from "../components/Col";
 import myProjects from "../projects.json";
 import ProjectCard from "../components/ProjectCard"
 
@@ -15,7 +18,13 @@ class Projects extends Component {
     return (
       <div>
         <Navbar />
-        <h1>My Project Page</h1>
+        <Container style={{ marginTop: 50 }}>
+        <Row>
+            <Col size="md-6">
+         
+              <h1>My Project Page</h1>
+            </Col>  
+        </Row>      
         {this.state.projects.map(project => {
           return (
           <ProjectCard key={project.id}
@@ -25,13 +34,14 @@ class Projects extends Component {
             info={project.info}
             info2={project.info2}
             url={project.url}
-            repo={project.info2}
+            repo={project.repo}
             
           />
           )
         })}
+      </Container>
       </div>
-    )
+    );
   }
 }
 

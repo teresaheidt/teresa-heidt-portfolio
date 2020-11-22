@@ -2,6 +2,7 @@ import React from "react";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import "../components/Header/style.css";
+import "../components/ProjectCard/style.css";
 import Container from "../components/Container";
 import Navbar from "../components/Navbar";
 import Profilepic from "../images/profileblackdress.jpeg";
@@ -38,7 +39,7 @@ function About() {
                     </Col>
                 </Row>
                 <Row> 
-                        <a href={Resume} target="_blank"><h3>My Resume</h3></a>
+                        <a className="links" style={{textDecoration: 'none'}} href={Resume} target="_blank"><h3>My Resume</h3></a>
                 </Row>
                     < br />
                     
