@@ -5,21 +5,23 @@ import "./style.css";
 
 function ProjectCard(props) {
   return (
+    <div>
     <Card className="card" style={{ width: '28rem' }}>
       <Card.Img variant="top" src={props.img} />
 
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        {/* <Card.Image>{props.image}</Card.Image> */}
+
         <Card.Text>{props.text}</Card.Text>
-  
-          <Button className="button">Deployed Link</Button><br /><p />
-          <Button>Github Link</Button>
+  <p>{props.info}</p>
+  <p><i>{props.info2}</i></p>
+  {/* <Card.Info>{props.info}</Card.Info> */}
+  <a href={props.url}>Deployed Link</a><br /><p />
+  <a href={props.repo}>Github Link</a>
       </Card.Body>
     </Card>
-
+    </div>
   )
-
 }
 
 

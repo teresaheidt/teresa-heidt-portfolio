@@ -16,13 +16,16 @@ The projects I have linked in my portfolio are; an application to an application
 * **Daily Scheduler** - manage a daily calendar that tells you where the user is in the day with color blocking and provides the current date at the top of the page. 
 
 ## Applications used
-To build my portfolio, I used React, Gatsby, w3-schools template, html, css, font awesome for styling and javascript.
+To build my portfolio, I used React, Bootstrap, css, font awesome for styling and javascript.
 ## Imgs
-When the user visits my portfolio, this is the first image they see. Every link takes the user to their desired location. 
-![screenshot](img/screenshot1.png) 
-When the user visits the 'Projects' tab, they will be able to view the top four projects. Each project has an image and a link to the specific project.
-![screenshot](img/project.png)
-When the user clicks on the 'Contact' link, they are able to see how to contact me. The telephone and email listed will enable the user to dynamically call me or email me. The user can also view my resume and find me on Github, LinkedIn and instagram.
-![screenshot](img/contact.png)
+This is my personalized Favicon.
+
+![screenshot](public/images/favicon.png)
+
+This is the About me page.
+
+![screenshot](public/images/about.png)
 ## Links
-https://github.com/teresaheidt/TH-Portfolio.git
+[Link to Github](https://github.com/teresaheidt/teresa-heidt-portfolio.git)
+
+[Link to deployed site]()
