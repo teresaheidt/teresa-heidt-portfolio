@@ -5,23 +5,18 @@ import "../components/Header/style.css";
 import Container from "../components/Container";
 import Navbar from "../components/Navbar";
 import Profilepic from "../images/profileblackdress.jpeg";
-
-// import Header from "../components/Header";
-
+import Resume from "../images/web.pdf";
 
 function About() {
     return (
-        
         <div>
             <Navbar />
         
-        
             <Container style={{ marginTop: 50 }}>
                 <Row>
-                <Col size="md-6">
-                 
-            <h1>About Me</h1>
-            <p>
+                    <Col size="md-6">
+                        <h1>About Me</h1>
+                        <p>
                         I am a web designer and developer.
                         Being creative and designing captivating content is my focus.
                         I am always thinking outside the box and bringing new ideas to the table.
@@ -36,14 +31,16 @@ function About() {
                         One more book is due for release in 2021. 
                         In my spare time I love; running, reading, writing, coding and spending time with my Shar-pei pug 🐶.
                         </p>
-                        </Col>
-                        {/* <br />
-                        <p /> */}
+                    </Col>
                     <Col size="md-6">
                         <br />
                         <img src={Profilepic} alt={"headshot"} height={300} width={300} ></img>
                     </Col>
-                    </Row>
+                </Row>
+                <Row> 
+                        <a href={Resume} target="_blank"><h3>My Resume</h3></a>
+                </Row>
+                    < br />
                     
             </Container>
             
