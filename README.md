@@ -28,4 +28,4 @@ This is the About me page.
 ## Links
 [Link to Github](https://github.com/teresaheidt/teresa-heidt-portfolio.git)
 
-[Link to deployed site]()
+[Link to deployed site](https://teresaheidt.github.io/teresa-heidt-portfolio)
