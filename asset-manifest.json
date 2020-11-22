@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/teresa-heidt-portfolio/static/css/main.5a170a75.chunk.css",
+    "main.js": "/teresa-heidt-portfolio/static/js/main.2e22d70f.chunk.js",
+    "main.js.map": "/teresa-heidt-portfolio/static/js/main.2e22d70f.chunk.js.map",
+    "runtime-main.js": "/teresa-heidt-portfolio/static/js/runtime-main.957ba16d.js",
+    "runtime-main.js.map": "/teresa-heidt-portfolio/static/js/runtime-main.957ba16d.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/teresa-heidt-portfolio/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.fb60d4a1.chunk.js": "/teresa-heidt-portfolio/static/js/2.fb60d4a1.chunk.js",
+    "static/js/2.fb60d4a1.chunk.js.map": "/teresa-heidt-portfolio/static/js/2.fb60d4a1.chunk.js.map",
+    "index.html": "/teresa-heidt-portfolio/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/teresa-heidt-portfolio/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.5a170a75.chunk.css.map": "/teresa-heidt-portfolio/static/css/main.5a170a75.chunk.css.map",
+    "static/js/2.fb60d4a1.chunk.js.LICENSE.txt": "/teresa-heidt-portfolio/static/js/2.fb60d4a1.chunk.js.LICENSE.txt",
+    "static/media/lightpink.a7cadbf5.jpg": "/teresa-heidt-portfolio/static/media/lightpink.a7cadbf5.jpg",
+    "static/media/profileblackdress.af5b67f0.jpeg": "/teresa-heidt-portfolio/static/media/profileblackdress.af5b67f0.jpeg",
+    "static/media/web.dc690934.pdf": "/teresa-heidt-portfolio/static/media/web.dc690934.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.957ba16d.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.fb60d4a1.chunk.js",
+    "static/css/main.5a170a75.chunk.css",
+    "static/js/main.2e22d70f.chunk.js"
+  ]
+}
