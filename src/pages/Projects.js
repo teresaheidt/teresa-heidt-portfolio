@@ -29,7 +29,7 @@ class Projects extends Component {
           return (
           <ProjectCard key={project.id}
             id={project.id}
-            img={"/images/" + project.img}
+            img={"images/" + project.img}
             title={project.title}
             info={project.info}
             info2={project.info2}
