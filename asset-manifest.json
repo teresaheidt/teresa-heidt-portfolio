@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/teresa-heidt-portfolio/static/css/main.5a170a75.chunk.css",
-    "main.js": "/teresa-heidt-portfolio/static/js/main.497a1e48.chunk.js",
-    "main.js.map": "/teresa-heidt-portfolio/static/js/main.497a1e48.chunk.js.map",
+    "main.js": "/teresa-heidt-portfolio/static/js/main.37f63b85.chunk.js",
+    "main.js.map": "/teresa-heidt-portfolio/static/js/main.37f63b85.chunk.js.map",
     "runtime-main.js": "/teresa-heidt-portfolio/static/js/runtime-main.957ba16d.js",
     "runtime-main.js.map": "/teresa-heidt-portfolio/static/js/runtime-main.957ba16d.js.map",
     "static/css/2.1a02f21c.chunk.css": "/teresa-heidt-portfolio/static/css/2.1a02f21c.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.fb60d4a1.chunk.js",
     "static/css/main.5a170a75.chunk.css",
-    "static/js/main.497a1e48.chunk.js"
+    "static/js/main.37f63b85.chunk.js"
   ]
 }
